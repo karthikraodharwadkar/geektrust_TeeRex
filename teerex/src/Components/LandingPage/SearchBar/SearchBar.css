@@ -1,0 +1,15 @@
+.searchbar-container{
+    position: sticky;
+    top:67px;
+    z-index: 1;
+    background-color: white;
+    
+}
+@media (max-width:768px) {
+    .searchbar-container{
+    position: sticky;
+    top:68px;
+    z-index: 1;
+    background-color: white;
+    }
+}

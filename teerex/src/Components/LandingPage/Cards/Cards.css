@@ -1,0 +1,29 @@
+.cards-container{
+    width: 75vw;
+    margin: 10px auto;
+    padding: 10px;
+}
+.grid-card{
+   display: flex;
+   justify-content: space-between;
+   flex-direction: column;
+    max-width: 220px;
+    max-height: max-content;
+   padding: 10px;
+   object-fit: cover;
+   box-shadow: 0px 0px 5px 5px lightcyan
+}
+.card-details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.addToCartBtn{
+    background-color:aquamarine;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 10px;
+    cursor: pointer;
+    font-weight: 600;
+}
